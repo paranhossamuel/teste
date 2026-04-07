@@ -47,7 +47,7 @@ body {
 
 
 .nav-links a:hover {
-    color: #3498db;
+    color: #7c5214;
 }
 
 
@@ -91,7 +91,7 @@ margin-bottom: 50px;
 
 .content-section h2 {
 margin-bottom: 20px;
-border-left: 5px solid #3498db;
+border-left: 5px solid #9e7317;
 padding-left: 10px;
 }
 
@@ -146,4 +146,17 @@ display: flex;
 justify-content: space-between;
 align-items: center;
 padding: 10px 5%; 
+}
+
+body.background {
+    min-height: 100vh;
+    margin: 0;
+
+    background: linear-gradient(
+        180deg,
+        #f2e6d8,
+        #ead8c0,
+        #d0b490
+
+    );
 }
